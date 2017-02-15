@@ -1,14 +1,15 @@
-# blog
-My blog made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
+# 면접에 나오는 단골 질문들을 모아봅니다.
 
+개발을 하면서 자바 가비지 컬렉터 원리, 멀티스레드, OOP개념, SOLID 원칙 등에 대해 생각하면서 개발을 했나요? ~~아닐겁니다.~~
 
-### Install
+하지만 면접관은 본인도 설명하라면 못할 이런 쓸데없는 질문을 던집니다.
 
-* fork this repository
-* edit the `_config.yml` with your info
-* change the links in `_data/navigation.yml`
-* remove my posts from `_posts/`
-* rename your repo to ***your-username*.github.io**
+그래서 면접은 따로 준비를 해야 합니다.
 
-### License
-All this stuff is under the [MIT License](https://raw.githubusercontent.com/getmicah/getmicah.github.io/master/LICENSE)
+본인이 무슨 개발을 했으며 그것을 몇년을 했든 면접은 그것과 별개입니다.
+
+한편으로 면접에 나오는 기술 관련 질문은 뻔합니다.
+
+그래서 그것들을 Q&A 형태로 모아보기로 했습니다.
+
+_도와주세요_
