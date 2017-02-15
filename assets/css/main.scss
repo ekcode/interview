@@ -242,5 +242,11 @@ blockquote {
 			line-height: 150%;
 			margin-bottom: 10px;
 		}
+		code {
+			padding: 3px;
+			font-size: 0.9em;
+			border-radius: 3px;
+			background: $color-grey;
+		}
 	}
 }
