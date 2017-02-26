@@ -1,13 +1,13 @@
 ---
 layout: post
-title: checked exception과 unchecked exception은 어떻게 다른가요?
+title: checked exception과 unchecked exception은 각각 어떤 경우에 사용하나요?
 ---
 
 # checked exception
-* 반드시 예외처리하는 코드를 작성하여야 한다. try/catch/finally로 감싸거나 throws 구문을 사용해 메소드 밖으로 던져야 한다.
-* 예외 처리를 하지 않으면 컴파일 에러가 발생한다.
+* 반드시 예외처리 코드를 작성해야 하고 그렇지 않으면 컴파일 에러가 발생한다.
+* try/catch/finally로 감싸거나 throws 구문을 사용해 메소드 밖으로 예외를 던져야 한다.
 * 정상적인 로직으로 간주한다. 트랜잭션 처리 중에 checked exception이 발생하더라도 rollback되지 않는다.[^1]
-* 예외 처리가 반드시 필요하다고 판단될 때 사용한다.
+* 예외 처리가 반드시 필요할 때 사용한다.
 
 # unchecked exception
 * 자바에서는 RuntimeException을 상속받았을 경우 unchecked exception이 된다.
