@@ -12,5 +12,7 @@ title: (자바)병렬 스트림은 언제 사용하나요?
 * 스트림의 특성과 파이프라인의 중간 연산이 스트림의 특성을 어떻게 바꾸는지에 따라 분해 과정의 성능이 달라질수 있다. 필터 연산이 있으면 스트림의 길이를 예측할 수 없으므로 효과적인 병렬 처리가 어렵다.
 * 최종 연산의 병합 과정 비용을 살펴보고 병합 과정의 비용이 비싸다면 병렬 스트림으로 얻은 성능의 이익이 상쇄된다.
 
+### 더 읽을거리
+* [Java8 Parallel Stream, 성능장애를 조심하세요!](http://tmondev.blog.me/220945933678)
 
 [http://ickhyun82.blogspot.kr/2017/01/parallelstream.html](http://ickhyun82.blogspot.kr/2017/01/parallelstream.html)
